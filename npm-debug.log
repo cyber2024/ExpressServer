@@ -1,0 +1,144 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\AppDev\\NodeJS\\node.exe',
+1 verbose cli   'd:\\AppDev\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-preset-es2015' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchPackageMetaData webpack-preset-es2015
+9 silly fetchNamedPackageData webpack
+10 silly mapToRegistry name webpack
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/webpack
+14 silly fetchNamedPackageData webpack-preset-es2015
+15 silly mapToRegistry name webpack-preset-es2015
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/webpack-preset-es2015
+19 verbose request uri https://registry.npmjs.org/webpack-preset-es2015
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 11:56:11 AM
+22 verbose request id 811288cfa503818f
+23 http request GET https://registry.npmjs.org/webpack-preset-es2015
+24 verbose request uri https://registry.npmjs.org/webpack
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 11:56:11 AM
+27 verbose etag W/"586d046b-d78db"
+28 verbose lastModified Wed, 04 Jan 2017 14:19:23 GMT
+29 http request GET https://registry.npmjs.org/webpack
+30 http 200 https://registry.npmjs.org/webpack
+31 verbose headers { server: 'nginx/1.10.1',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'last-modified': 'Tue, 31 Jan 2017 16:45:11 GMT',
+31 verbose headers   etag: 'W/"5890bf17-e4a17"',
+31 verbose headers   'content-encoding': 'gzip',
+31 verbose headers   'cache-control': 'max-age=300',
+31 verbose headers   'content-length': '48565',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   date: 'Wed, 01 Feb 2017 11:56:12 GMT',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '184',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-served-by': 'cache-syd1624-SYD',
+31 verbose headers   'x-cache': 'HIT',
+31 verbose headers   'x-cache-hits': '2',
+31 verbose headers   'x-timer': 'S1485950172.688531,VS0,VE0',
+31 verbose headers   vary: 'Accept-Encoding' }
+32 silly get cb [ 200,
+32 silly get   { server: 'nginx/1.10.1',
+32 silly get     'content-type': 'application/json',
+32 silly get     'last-modified': 'Tue, 31 Jan 2017 16:45:11 GMT',
+32 silly get     etag: 'W/"5890bf17-e4a17"',
+32 silly get     'content-encoding': 'gzip',
+32 silly get     'cache-control': 'max-age=300',
+32 silly get     'content-length': '48565',
+32 silly get     'accept-ranges': 'bytes',
+32 silly get     date: 'Wed, 01 Feb 2017 11:56:12 GMT',
+32 silly get     via: '1.1 varnish',
+32 silly get     age: '184',
+32 silly get     connection: 'keep-alive',
+32 silly get     'x-served-by': 'cache-syd1624-SYD',
+32 silly get     'x-cache': 'HIT',
+32 silly get     'x-cache-hits': '2',
+32 silly get     'x-timer': 'S1485950172.688531,VS0,VE0',
+32 silly get     vary: 'Accept-Encoding' } ]
+33 verbose get saving webpack to C:\Users\Russell Elfenbein\AppData\Roaming\npm-cache\registry.npmjs.org\webpack\.cache.json
+34 http 404 https://registry.npmjs.org/webpack-preset-es2015
+35 verbose headers { 'content-type': 'application/json',
+35 verbose headers   'cache-control': 'max-age=0',
+35 verbose headers   'content-length': '2',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   date: 'Wed, 01 Feb 2017 11:56:13 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   age: '0',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-syd1621-SYD',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1485950172.695541,VS0,VE923',
+35 verbose headers   vary: 'Accept-Encoding' }
+36 silly get cb [ 404,
+36 silly get   { 'content-type': 'application/json',
+36 silly get     'cache-control': 'max-age=0',
+36 silly get     'content-length': '2',
+36 silly get     'accept-ranges': 'bytes',
+36 silly get     date: 'Wed, 01 Feb 2017 11:56:13 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-syd1621-SYD',
+36 silly get     'x-cache': 'MISS',
+36 silly get     'x-cache-hits': '0',
+36 silly get     'x-timer': 'S1485950172.695541,VS0,VE923',
+36 silly get     vary: 'Accept-Encoding' } ]
+37 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/webpack-preset-es2015
+37 silly fetchPackageMetaData     at makeError (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+37 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+37 silly fetchPackageMetaData     at Request._callback (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+37 silly fetchPackageMetaData     at Request.self.callback (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:198:22)
+37 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+37 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+37 silly fetchPackageMetaData     at Request.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:1082:10)
+37 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+37 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+37 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:1009:12)
+37 silly fetchPackageMetaData  error for webpack-preset-es2015 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/webpack-preset-es2015] pkgid: 'webpack-preset-es2015', statusCode: 404, code: 'E404' }
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/webpack-preset-es2015
+43 verbose stack     at makeError (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+43 verbose stack     at CachingRegistryClient.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+43 verbose stack     at Request._callback (d:\AppDev\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+43 verbose stack     at Request.self.callback (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:198:22)
+43 verbose stack     at emitTwo (events.js:100:13)
+43 verbose stack     at Request.emit (events.js:185:7)
+43 verbose stack     at Request.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:1082:10)
+43 verbose stack     at emitOne (events.js:95:20)
+43 verbose stack     at Request.emit (events.js:182:7)
+43 verbose stack     at IncomingMessage.<anonymous> (d:\AppDev\NodeJS\node_modules\npm\node_modules\request\request.js:1009:12)
+44 verbose statusCode 404
+45 verbose pkgid webpack-preset-es2015
+46 verbose cwd d:\AppDev\Git\Education\testhelper
+47 error Windows_NT 10.0.14393
+48 error argv "d:\\AppDev\\NodeJS\\node.exe" "d:\\AppDev\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "webpack" "webpack-preset-es2015"
+49 error node v5.5.0
+50 error npm  v3.3.12
+51 error code E404
+52 error 404 Registry returned 404 for GET on https://registry.npmjs.org/webpack-preset-es2015
+52 error 404
+52 error 404 'webpack-preset-es2015' is not in the npm registry.
+52 error 404 You should bug the author to publish it (or use the name yourself!)
+52 error 404
+52 error 404 Note that you can also install from a
+52 error 404 tarball, folder, http url, or git url.
+53 verbose exit [ 1, true ]
